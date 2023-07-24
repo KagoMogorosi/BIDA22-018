@@ -1,0 +1,542 @@
+ <!--doctype html-->
+ <html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>SceneSearchers</title>
+  <a href="../index.html">HOME</a>
+  <link rel="stylesheet" href="./style.css"/>
+  <!--==Fav-icon===============================-->
+  <link rel="shortcut icon" href="images/fav-icon.png"/>
+  <!--==Import-poppins-font====================-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!--==Import-Monoton-Font====================-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+  <!--==Using-Font-Awesome======================-->
+  <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+
+
+     
+      <!--==Scroll-Progress-bar=========================-->
+      <div id="progress">
+        <span id="progress-value"></span>
+    </div>
+    <!--==Navigation===================================-->
+    <nav class="navigation">
+        <!--menu-btn--------------->
+        <input type="#" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+        <!--logo------------------->
+        <a href="./moviepage.html" class="logo">
+        </a>
+       
+        <!--Search-box------------->
+        <form action="" class="search-box">
+            <!--input-->
+            <input type="text" name="search" placeholder="Search Movie" class="search-input" required/>
+            <!--btn-->
+            <button type="submit">
+                <i class="fas fa-search"></i>
+            </button>
+        </form>
+    </nav>
+    <!--nav-end-->
+
+</head>
+<body>
+    <div class="banner-container">
+        <div class="movie-title">
+            <h1>Batman</h1>
+        </div>
+        <div class="more-about-movie">
+            <span class="quality">Full HD</span>
+            <div class="rating">
+                8.8 <img src="./movies/bat-man.jpg" alt="imdb">
+            </div>
+            <span>12 May 2018</span>
+            <span>120min</span>
+        </div>
+        <div class="language">
+            <span>English</span>
+        </div>
+        <div class="category">
+            <strong>Category:</strong>
+            <a href="#">Action</a>,
+            <a href="#">Mystery</a>,
+            <a href="#">Thriller</a>
+        </div>
+        <a href="https://youtu.be/mqqft2x_Aa4" class="watch-btn">Watch Trailer</a>
+        
+    </div>
+
+  </head>
+
+  <body>
+    
+      
+<!--==Movie-Banner=========================================-->
+<section class="movie-banner">
+    <!--==img==================================-->
+    <div class="m-banner-img">
+        <img src="pirates-of-the-caribbean.jpg" alt="">
+    </div>
+    <!--content================================-->
+    <div class="banner-container">             
+        <div class="title-container">
+            <div class="title-top">
+            <div class="movie-title">
+                <h1>Pirates of the Caribbean Salazar's Revenge</h1>
+            </div>
+            <!--more-about-movie-->
+            <div class="more-about-movie">
+                <span class="quality">Full HD</span>
+                <div class="rating">
+                    8.2 <img class="img-responsive" image-resize src="./movies/pirates-of-the-carribean.jpg" alt="pirates-of-the-carribean IMAGE">
+                </div>
+                <span>28 August 2017</span>
+                <span>87min</span>
+            </div>
+            <!--language--------->
+            <div class="language">
+                <span>English</span>
+            </div>
+            </div>
+            <div class="title-bottom">
+                <div class="category">
+                    <strong>Category</strong><br/>
+                    <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+                </div>
+                <!--trailer-btn---->
+                <a href="https://www.youtube.com/watch?v=ZgQkEf3dQ08" class="watch-btn">Watch Trailer</a>
+            </div>
+        </div>
+        
+    </div>
+    <style>
+        /* Set basic styles for the banner container */
+.banner-container {
+  background-color: #a7a1a1;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+/* Style the movie title section */
+.title-container {
+  flex: 1;
+}
+
+.movie-title h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.quality {
+  font-weight: bold;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.rating img {
+  margin-left: 5px;
+}
+
+/* Style the language section */
+.language span {
+  font-weight: bold;
+}
+
+/* Style the category section */
+.category strong {
+  font-weight: bold;
+}
+
+.category a {
+  margin-right: 5px;
+}
+
+/* Style the watch trailer button */
+.watch-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.play-btn a {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+
+    </style>
+<!--Banner-end------------->
+
+     
+     
+ <!--content================================-->
+ <div class="banner-container">             
+    <div class="title-container">
+        <div class="title-top">
+        <div class="movie-title">
+            <h1>Blood Shot</h1>
+        </div>
+        <!--more-about-movie-->
+        <div class="more-about-movie">
+            <span class="quality">Full HD</span>
+            <div class="rating">
+                8.8 <img src="./movies/blood-shot.jpg" alt="imbd">
+            </div>
+            <span>12 May 2018</span>
+            <span>120min</span>
+        </div>
+        <!--language--------->
+        <div class="language">
+            <span>English</span>
+        </div>
+        </div>
+        <div class="title-bottom">
+            <div class="category">
+                <strong>Category</strong><br/>
+                <a href="#">Action</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+            </div>
+            <!--trailer-btn---->
+            <a href="https://youtu.be/vOUVVDWdXbo" class="watch-btn">Watch Trailer</a>
+        </div>
+    </div>
+    
+
+ <!--content================================-->
+ <div class="banner-container">             
+    <div class="title-container">
+        <div class="title-top">
+        <div class="movie-title">
+            <h1>Hunter Killer</h1>
+        </div>
+        <!--more-about-movie-->
+        <div class="more-about-movie">
+            <span class="quality">Full HD</span>
+            <div class="rating">
+                8.8 <img src="./movies/hunter-killer.jpg" alt="imbd">
+            </div>
+            <span>12 May 2018</span>
+            <span>120min</span>
+        </div>
+        <!--language--------->
+        <div class="language">
+            <span>English</span>
+        </div>
+        </div>
+        <div class="title-bottom">
+            <div class="category">
+                <strong>Category</strong><br/>
+                <a href="#">Action</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+            </div>
+            <!--trailer-btn---->
+            <a href="" class="watch-btn">Watch Trailer</a>
+        </div>
+    </div>
+
+<!--Banner-end------------->
+
+ <!--content================================-->
+ <div class="banner-container">             
+    <div class="title-container">
+        <div class="title-top">
+        <div class="movie-title">
+            <h1>End Game</h1>
+        </div>
+        <!--more-about-movie-->
+        <div class="more-about-movie">
+            <span class="quality">Full HD</span>
+            <div class="rating">
+                8.8 <img src="./movies/end-game.jpg" alt="imbd">
+            </div>
+            <span>26 April 2019</span>
+            <span>120min</span>
+        </div>
+        <!--language--------->
+        <div class="language">
+            <span>English</span>
+        </div>
+        </div>
+        <div class="title-bottom">
+            <div class="category">
+                <strong>Category</strong><br/>
+                <a href="#">Action</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+            </div>
+            <!--trailer-btn---->
+            <a href="" class="watch-btn">Watch Trailer</a>
+        </div>
+    </div>
+   
+   
+</div>
+
+ <!--content================================-->
+ <div class="banner-container">             
+    <div class="title-container">
+        <div class="title-top">
+        <div class="movie-title">
+            <h1>Insidious</h1>
+        </div>
+        <!--more-about-movie-->
+        <div class="more-about-movie">
+            <span class="quality">Full HD</span>
+            <div class="rating">
+                8.8 <img src="movies/insidious.jpg" alt="imbd">
+            </div>
+            <span>12 May 2018</span>
+            <span>120min</span>
+        </div>
+        <!--language--------->
+        <div class="language">
+            <span>English</span>
+        </div>
+        </div>
+        <div class="title-bottom">
+            <div class="category">
+                <strong>Category</strong><br/>
+                <a href="#">Action</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+            </div>
+            <!--trailer-btn---->
+            <a href="https://youtu.be/zuZnRUcoWos" class="watch-btn">Watch Trailer</a>
+        </div>
+    </div>
+    </div>
+</div>
+</section>
+<!--Banner-end------------->
+
+ <!--content================================-->
+ <div class="banner-container">             
+    <div class="title-container">
+        <div class="title-top">
+        <div class="movie-title">
+            <h1>Love Rose</h1>
+        </div>
+        <!--more-about-movie-->
+        <div class="more-about-movie">
+            <span class="quality">Full HD</span>
+            <div class="rating">
+                8.8 <img src="movies/love-roise.jpg" alt="imbd">
+            </div>
+            <span>12 October 2019</span>
+            <span>120min</span>
+        </div>
+        <!--language--------->
+        <div class="language">
+            <span>English</span>
+        </div>
+        </div>
+        <div class="title-bottom">
+            <div class="category">
+                <strong>Category</strong><br/>
+                <a href="#">Action</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+            </div>
+            <!--trailer-btn---->
+            <a href="https://youtu.be/5zL3YJKygd4" class="watch-btn">Watch Trailer</a>
+        </div>
+    </div>
+</div>
+</section>
+<!--Banner-end------------->
+
+ <!--content================================-->
+ <div class="banner-container">             
+    <div class="title-container">
+        <div class="title-top">
+        <div class="movie-title">
+            <h1>Resident Evil</h1>
+        </div>
+        <!--more-about-movie-->
+        <div class="more-about-movie">
+            <span class="quality">Full HD</span>
+            <div class="rating">
+                8.8 <img src="./movies/resident-evil.jpg" alt="imbd">
+            </div>
+            <span>24 June 2020</span>
+            <span>120min</span>
+        </div>
+        <!--language--------->
+        <div class="language">
+            <span>English</span>
+        </div>
+        </div>
+        <div class="title-bottom">
+            <div class="category">
+                <strong>Category</strong><br/>
+                <a href="#">Action</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+            </div>
+            <!--trailer-btn---->
+            <a href="" class="watch-btn">Watch Trailer</a>
+        </div>
+    </div>
+   
+   
+</div>
+</section>
+<!--Banner-end------------->
+
+ <!--content================================-->
+ <div class="banner-container">             
+    <div class="title-container">
+        <div class="title-top">
+        <div class="movie-title">
+            <h1>Theatre of the Dead</h1>
+        </div>
+        <!--more-about-movie-->
+        <div class="more-about-movie">
+            <span class="quality">Full HD</span>
+            <div class="rating">
+                8.8 <img src="movies/theatre-dead.jpg" alt="imbd">
+            </div>
+            <span>23 2016</span>
+            <span>120min</span>
+        </div>
+        <!--language--------->
+        <div class="language">
+            <span>English</span>
+        </div>
+        </div>
+        <div class="title-bottom">
+            <div class="category">
+                <strong>Category</strong><br/>
+                <a href="#">Action</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+            </div>
+            <!--trailer-btn---->
+            <a href="https://youtu.be/l7rUbFnEwd8" class="watch-btn">Watch Trailer</a>
+        </div>
+    </div> 
+    </div>
+</div>
+</section>
+<!--Banner-end------------->
+
+ <!--content================================-->
+ <div class="banner-container">             
+    <div class="title-container">
+        <div class="title-top">
+        <div class="movie-title">
+            <h1>Transformers</h1>
+        </div>
+        <!--more-about-movie-->
+        <div class="more-about-movie">
+            <span class="quality">Full HD</span>
+            <div class="rating">
+                8.8 <img src="./movies/transformer.jpg" alt="imbd">
+            </div>
+            <span>30 January 2019</span>
+            <span>120min</span>
+        </div>
+        <!--language--------->
+        <div class="language">
+            <span>English</span>
+        </div>
+        </div>
+        <div class="title-bottom">
+            <div class="category">
+                <strong>Category</strong><br/>
+                <a href="#">Action</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+            </div>
+            <!--trailer-btn---->
+            <a href="https://youtu.be/itnqEauWQZM" class="watch-btn">Watch Trailer</a>
+        </div>
+    </div>
+</div>
+</section>
+<!--Banner-end------------->
+
+ <!--content================================-->
+ <div class="banner-container">             
+    <div class="title-container">
+        <div class="title-top">
+        <div class="movie-title">
+            <h1>Captain Marvel</h1>
+        </div>
+        <!--more-about-movie-->
+        <div class="more-about-movie">
+            <span class="quality">Full HD</span>
+            <div class="rating">
+                8.8 <img src="./movies/captain-marvel.png" alt="imbd">
+            </div>
+            <span>26 May 2021</span>
+            <span>120min</span>
+        </div>
+        <!--language--------->
+        <div class="language">
+            <span>English</span>
+        </div>
+        </div>
+        <div class="title-bottom">
+            <div class="category">
+                <strong>Category</strong><br/>
+                <a href="#">Action</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+            </div>
+            <!--trailer-btn---->
+            <a href="https://youtu.be/Z1BCujX3pw8" class="watch-btn">Watch Trailer</a>
+        </div>
+    </div>
+
+    </div>
+</div>
+</section>
+<!--Banner-end------------->
+
+      <!--==jQuery=======================================-->
+      <script src="js/jQuery.js"></script>
+      <script>
+          /*==scroll-progress-bar======================*/
+          let scrollPrecentage = () =>{
+              let scrollProgress = document.getElementById("progress");
+              let progressValue = document.getElementById("progress-value");
+              let pos = document.documentElement.scrollTop;
+              let calcHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+              let scrollValue = Math.round(pos * 100 / calcHeight);
+              scrollProgress.style.background = `conic-gradient(#e70634 ${scrollValue}%, #2b2f38 ${scrollValue}%)`;
+          }
+          window.onscroll = scrollPrecentage;
+          window.onload = scrollPrecentage;
+          /*--menu-btn-fixed-when-scroll============*/
+          $(window).scroll(function(){
+              if($(document).scrollTop() > 20){
+                  $('.navigation').addClass('fix-icon');
+              }
+              else{
+                  $('.navigation').removeClass('fix-icon');
+              }
+          });
+          /*==popup-open==================================*/
+          $(document).on('click','.play-btn a',function(){
+              $('.play').addClass('active-popup');
+          });
+          /*==popup-Close==================================*/
+          $(document).on('click','.close-movie',function(){
+              $('.play').removeClass('active-popup');
+          });
+          /*==auto-play-when-popup-open===================*/
+          $('.play-btn a').click(function(){
+              $('#m-video')[0].play();
+          });
+          /*==Close-video-when-poppup-close==============*/
+          $('.close-movie').click(function(){
+              $('#m-video')[0].pause();
+          });
+        </script>
+  </body>
+  </html>
+        

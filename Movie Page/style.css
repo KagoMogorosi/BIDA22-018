@@ -1,0 +1,93 @@
+<!--Stlying===========------->
+<style>
+        /* Add this CSS rule to resize the image */
+.rating img {
+  width: 200px;
+  height: 400px;
+    }
+
+
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .banner-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #332c2c;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .movie-title {
+        margin: 0;
+        font-size: 24px;
+    }
+
+    .more-about-movie {
+        margin-bottom: 10px;
+    }
+
+    .quality {
+        font-weight: bold;
+    }
+
+    .rating {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .rating img {
+        margin-left: 5px;
+    }
+
+    .language {
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .category {
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .category a {
+        margin-right: 5px;
+    }
+
+    .watch-btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #f44336;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 4px;
+        margin-bottom: 10px;
+    }
+
+    .play-btn {
+        background-color: #f44336;
+        color: #fff;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .play-btn a {
+        color: #fff;
+        font-size: 24px;
+        text-decoration: none;
+    }
+</style>
